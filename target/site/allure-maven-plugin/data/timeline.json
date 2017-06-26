@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 1,
+    "maxDuration" : 12456,
+    "sumDuration" : 12457,
+    "start" : 1498509490864,
+    "stop" : 1498509506524,
+    "duration" : 15660
+  },
+  "children" : [ {
+    "uid" : "ab033d4cddeac5ed",
+    "name" : "Mindaug4s-PC",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 12456,
+      "sumDuration" : 12457,
+      "start" : 1498509490864,
+      "stop" : 1498509506524,
+      "duration" : 15660
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "2e54106b261dd20c",
+      "name" : "10028@Mindaug4s-PC.TestNG(14)",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 12456,
+        "sumDuration" : 12457,
+        "start" : 1498509490864,
+        "stop" : 1498509506524,
+        "duration" : 15660
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "a922c46efd556c84",
+        "name" : "testAccountCreation",
+        "time" : {
+          "start" : 1498509494068,
+          "stop" : 1498509506524,
+          "duration" : 12456
+        },
+        "status" : "broken",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "f9ebc790fe514814",
+        "name" : "testIfAccountCanBeCreated",
+        "time" : {
+          "start" : 1498509490864,
+          "stop" : 1498509490865,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

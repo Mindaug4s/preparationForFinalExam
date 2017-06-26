@@ -1,0 +1,41 @@
+{
+  "c64121ab921d2aa877c3d9fce724d325" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a922c46efd556c84",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with index: 5\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Mindaug4s-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1498509494068,
+        "stop" : 1498509506524,
+        "duration" : 12456
+      }
+    } ]
+  },
+  "e3499edde93d2d933078b646c01f08a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9ebc790fe514814",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498509490864,
+        "stop" : 1498509490865,
+        "duration" : 1
+      }
+    } ]
+  }
+}

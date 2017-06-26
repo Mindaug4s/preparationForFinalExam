@@ -1,0 +1,23 @@
+<suite name="RegressionTest - Suite" thread-count="2" parallel="tests">
+	<test name="FireFox test">
+		<parameter name="browserName" value="Firefox" />
+		<classes>
+			<class name="exam.preparation.ExamPreparationProject.PreparationTest" />
+			<class name="practical.exam.Mindaug4sBinBash.FirstTaskTest" />
+		</classes>
+	</test>
+	<test name="Chrome test">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="exam.preparation.ExamPreparationProject.PreparationTest" />
+			<class name="practical.exam.Mindaug4sBinBash.FirstTaskTest" />
+		</classes>
+	</test>
+	<test name="IE test">
+		<parameter name="browserName" value="IE" />
+		<classes>
+			<class name="exam.preparation.ExamPreparationProject.PreparationTest" />
+			<class name="practical.exam.Mindaug4sBinBash.FirstTaskTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,74 @@
+{
+  "uid" : "62b805500b31138f",
+  "name" : "testAccountCreation",
+  "fullName" : "practical.exam.Mindaug4sBinBash.FirstTaskTest.testAccountCreation",
+  "historyId" : "c64121ab921d2aa877c3d9fce724d325",
+  "time" : {
+    "start" : 1498509484044,
+    "stop" : 1498509487444,
+    "duration" : 3400
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTest",
+    "time" : {
+      "start" : 1498509480524,
+      "stop" : 1498509484042,
+      "duration" : 3518
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1498509487446,
+      "stop" : 1498509487457,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "testClass",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAccountCreation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RegressionTest - Suite"
+  }, {
+    "name" : "suite",
+    "value" : "FireFox test"
+  }, {
+    "name" : "subSuite",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "host",
+    "value" : "Mindaug4s-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10028@Mindaug4s-PC.TestNG(14)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

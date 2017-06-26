@@ -1,0 +1,98 @@
+{
+  "uid" : "a922c46efd556c84",
+  "name" : "testAccountCreation",
+  "fullName" : "practical.exam.Mindaug4sBinBash.FirstTaskTest.testAccountCreation",
+  "historyId" : "c64121ab921d2aa877c3d9fce724d325",
+  "time" : {
+    "start" : 1498509494068,
+    "stop" : 1498509506524,
+    "duration" : 12456
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot locate option with index: 5\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Mindaug4s-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: unknown",
+    "trace" : "org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 5\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Mindaug4s-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:182)\r\n\tat tests.methods.FirstTaskTestMethods.fillSelectFields(FirstTaskTestMethods.java:70)\r\n\tat practical.exam.Mindaug4sBinBash.FirstTaskTest.testAccountCreation(FirstTaskTest.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:37)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)\r\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n",
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTest",
+    "time" : {
+      "start" : 1498509490879,
+      "stop" : 1498509494065,
+      "duration" : 3186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1498509506525,
+      "stop" : 1498509506547,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "testClass",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAccountCreation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RegressionTest - Suite"
+  }, {
+    "name" : "suite",
+    "value" : "IE test"
+  }, {
+    "name" : "subSuite",
+    "value" : "practical.exam.Mindaug4sBinBash.FirstTaskTest"
+  }, {
+    "name" : "host",
+    "value" : "Mindaug4s-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10028@Mindaug4s-PC.TestNG(14)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a61ddac41a7296df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498509486739,
+        "stop" : 1498509489796,
+        "duration" : 3057
+      }
+    }, {
+      "uid" : "62b805500b31138f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498509484044,
+        "stop" : 1498509487444,
+        "duration" : 3400
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects"
+    } ]
+  }
+}

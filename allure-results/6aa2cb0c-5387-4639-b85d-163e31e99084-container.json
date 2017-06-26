@@ -1,0 +1,1 @@
+{"uuid":"6aa2cb0c-5387-4639-b85d-163e31e99084","name":"exam.preparation.ExamPreparationProject.BaseTest.closeBrowser","description":"","start":1498508192322,"stop":1498508192354,"children":["f3f90459-534a-43da-b127-bda0f89e0751"],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","start":1498508192322,"stop":1498508192354}]}

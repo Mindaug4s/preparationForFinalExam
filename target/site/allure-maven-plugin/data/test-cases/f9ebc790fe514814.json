@@ -1,0 +1,94 @@
+{
+  "uid" : "f9ebc790fe514814",
+  "name" : "testIfAccountCanBeCreated",
+  "fullName" : "exam.preparation.ExamPreparationProject.PreparationTest.testIfAccountCanBeCreated",
+  "historyId" : "e3499edde93d2d933078b646c01f08a1",
+  "time" : {
+    "start" : 1498509490864,
+    "stop" : 1498509490865,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTest",
+    "time" : {
+      "start" : 1498509487467,
+      "stop" : 1498509490862,
+      "duration" : 3395
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1498509490866,
+      "stop" : 1498509490877,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIfAccountCanBeCreated"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RegressionTest - Suite"
+  }, {
+    "name" : "suite",
+    "value" : "IE test"
+  }, {
+    "name" : "subSuite",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "host",
+    "value" : "Mindaug4s-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10028@Mindaug4s-PC.TestNG(14)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8fbaff0e416b60bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498509481349,
+        "stop" : 1498509481349,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d65cde0b2f320dd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498509480495,
+        "stop" : 1498509480501,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 12456,
+    "maxDuration" : 12456,
+    "sumDuration" : 12456,
+    "start" : 1498509494068,
+    "stop" : 1498509506524,
+    "duration" : 12456
+  },
+  "children" : [ {
+    "uid" : "60b5e64079dfc097",
+    "name" : "Test defects",
+    "time" : {
+      "minDuration" : 12456,
+      "maxDuration" : 12456,
+      "sumDuration" : 12456,
+      "start" : 1498509494068,
+      "stop" : 1498509506524,
+      "duration" : 12456
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "2719af2c3eb74958",
+      "name" : "Cannot locate option with index: 5\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Mindaug4s-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: unknown",
+      "time" : {
+        "minDuration" : 12456,
+        "maxDuration" : 12456,
+        "sumDuration" : 12456,
+        "start" : 1498509494068,
+        "stop" : 1498509506524,
+        "duration" : 12456
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "a922c46efd556c84",
+        "name" : "testAccountCreation",
+        "time" : {
+          "start" : 1498509494068,
+          "stop" : 1498509506524,
+          "duration" : 12456
+        },
+        "status" : "broken",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a922c46efd556c84",
+  "name" : "testAccountCreation",
+  "time" : {
+    "start" : 1498509494068,
+    "stop" : 1498509506524,
+    "duration" : 12456
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ebc790fe514814",
+  "name" : "testIfAccountCanBeCreated",
+  "time" : {
+    "start" : 1498509490864,
+    "stop" : 1498509490865,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [RegressionTest - Suite]" parallel="tests">
+  <parameter name="browserName" value="Opera"/>
+  <test name="Opera test(failed)" parallel="tests">
+    <parameter name="browserName" value="Opera"/>
+    <classes>
+      <class name="practical.exam.Mindaug4sBinBash.FirstTaskTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="prepareForTest"/>
+          <include name="prepareForTest"/>
+          <include name="prepareForTest"/>
+          <include name="testAccountCreation"/>
+        </methods>
+      </class> <!-- practical.exam.Mindaug4sBinBash.FirstTaskTest -->
+      <class name="exam.preparation.ExamPreparationProject.PreparationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="prepareForTest"/>
+          <include name="prepareForTest"/>
+          <include name="prepareForTest"/>
+        </methods>
+      </class> <!-- exam.preparation.ExamPreparationProject.PreparationTest -->
+    </classes>
+  </test> <!-- Opera test(failed) -->
+</suite> <!-- Failed suite [RegressionTest - Suite] -->

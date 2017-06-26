@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6937" started-at="2017-06-26T20:43:17Z" finished-at="2017-06-26T20:43:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6937" started-at="2017-06-26T20:43:17Z" finished-at="2017-06-26T20:43:24Z">
+      <class name="exam.preparation.ExamPreparationProject.PreparationTest">
+        <test-method status="PASS" signature="prepareForTest(java.lang.String)[pri:0, instance:exam.preparation.ExamPreparationProject.PreparationTest@ab7a938]" name="prepareForTest" is-config="true" duration-ms="6795" started-at="2017-06-26T23:43:17Z" finished-at="2017-06-26T23:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareForTest -->
+        <test-method status="PASS" signature="testIfAccountCanBeCreated()[pri:0, instance:exam.preparation.ExamPreparationProject.PreparationTest@ab7a938]" name="testIfAccountCanBeCreated" duration-ms="88" started-at="2017-06-26T23:43:24Z" finished-at="2017-06-26T23:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfAccountCanBeCreated -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:exam.preparation.ExamPreparationProject.PreparationTest@ab7a938]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2017-06-26T23:43:24Z" finished-at="2017-06-26T23:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- exam.preparation.ExamPreparationProject.PreparationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

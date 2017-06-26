@@ -1,0 +1,74 @@
+{
+  "uid" : "8fbaff0e416b60bd",
+  "name" : "testIfAccountCanBeCreated",
+  "fullName" : "exam.preparation.ExamPreparationProject.PreparationTest.testIfAccountCanBeCreated",
+  "historyId" : "e3499edde93d2d933078b646c01f08a1",
+  "time" : {
+    "start" : 1498509481349,
+    "stop" : 1498509481349,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTest",
+    "time" : {
+      "start" : 1498509474882,
+      "stop" : 1498509481345,
+      "duration" : 6463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1498509481351,
+      "stop" : 1498509481470,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIfAccountCanBeCreated"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RegressionTest - Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome test"
+  }, {
+    "name" : "subSuite",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "host",
+    "value" : "Mindaug4s-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10028@Mindaug4s-PC.TestNG(15)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}
